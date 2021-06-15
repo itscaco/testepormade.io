@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de fluxo para tabulação PORMADE</title>
+    <style> 
+        div#area {
+            font: normal 20pt arial;
+            background:     rgb(0, 0, 0);
+            color: white;
+            width: 1200px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        div#fundoopcao{
+
+            font: normal 15pt arial;
+            background:     rgb(0, 0, 0);
+            color: white;
+            width: 350px;
+            height: 50px;
+            line-height: 50px;
+            text-align: 50px;
+            text-size-adjust: center;
+        }
+
+        div#fundoopcao2{
+
+            font: normal 15pt arial;
+            background:     rgb(0, 0, 0);
+            color: white;
+            width: 350px;
+            height: 50px;
+            line-height: center;
+            text-align: center;
+            text-size-adjust: center;
+}
+     
+
+        div#fundoopcao3{
+
+            font: normal 15pt arial;
+            background:     rgb(0, 0, 0);
+            color: white;
+            width: 536px;
+            height: 50px;
+            line-height: 50px;
+            text-align: 50px;
+            text-size-adjust: center;
+}
+
+     
+
+     div#fundoopcao4{
+
+         font: normal 15pt arial;
+    
+      
+}
+
+div#fundoopcao5{
+
+font: normal 15pt arial;
+background:     rgb(0, 0, 0);
+color: white;
+width: 1095px;
+height: 50px;
+line-height: 50px;
+text-align: 50px;
+text-size-adjust: center;
+}
+    </style>
+
+</head>
+<body>
+    <div id='area'><strong>TABULADOR DE OCORRÊNCIAS</strong></div>
+
+<table cellspacing='20'>  
+<tr>
+        <th><div id='fundoopcao'>É sobre qual negócio?</div></th>
+        <th><div id='fundoopcao'>Quem faz a interação?</div></th>
+        <th><div id='fundoopcao'>Esta interação é uma...</div></th>
+              
+</tr>    
+
+<tr>
+                       
+            <td>
+            <center><select name="input" style="font: normal 14pt arial; width: 300px; height: 40px;" >
+            <option value="1">-</option>
+            <option value="2">Showroom</option>
+            <option value="3">Franquias</option>
+            <option value="4">Loja Online</option>
+            <option value="5">Varejo</option>
+            <option value="6">Vendas Diretas</option>
+            </select></td></center>
+
+            <td>
+                <center><select name="input" style="font: normal 14pt arial;  width: 300px; height: 40px;" >
+                <option value="1">-</option>
+                <option value="2">Cliente</option>
+                <option value="3">Arquiteto</option>
+                <option value="4">Instalador</option>
+                <option value="5">Varejo</option>
+                <option value="6">Familiares</option>
+                <option value="7">Vendedor</option>
+                </select></center>
+                </td>
+
+
+            <td>
+                <center><select name="input" style="font: normal 14pt arial;  width: 300px; height: 40px;" >
+                <option value="1">-</option>
+                <option value="2">Informação</option>
+                <option value="3">Reclamação</option>
+                <option value="4">Solicitação</option>
+                <option value="5">Elogio</option>
+                <option value="6">Sugestão</option>
+                <option value="7">Dúvidas</option>
+                <option value="8">Comentarios-RS</option>
+                <option value="9">Televendas</option>
+                </select></td></center>
+  
+</tr>
+
+<tr>
+    <th><div id='fundoopcao'>Utilizou outro canal antes?</div></th>
+    <th><div id='fundoopcao2'>Há quanto tempo a cliente espera por solução?</div></th>
+    <th><div id='fundoopcao'>Refere-se a uma data especial?</div></th>
+          
+</tr>  
+
+<tr>
+                       
+    <td>
+     <center><select name="input" style="font: normal 14pt arial;  width: 300px; height: 40px;" >
+     <option value="1">-</option>
+     <option value="2">Chat</option>
+     <option value="3">E-mail</option>
+     <option value="4">Mídias Sociais</option>
+     <option value="5">Reclame AQUI</option>
+     <option value="6">Telefone</option>
+     <option value="7">WhatsApp</option>
+     <option value="8">Telegram</option>
+     <option value="9">Lojas Fisicas</option>
+     <option value="10">Vendedores</option>
+     <option value="11">Juridico</option>
+     <option value="12">Vários Canais</option>
+     <option value="13">Nenhum canal</option>
+     
+
+     </select></center>
+     </td>
+
+     <td>
+     <center><select name="input" style="font: normal 14pt arial; width: 300px; height: 40px;" >
+     <option value="1">-</option>
+     <option value="2">< 10 dias</option>
+     <option value="3">> 15 dias</option>
+     <option value="4">> 20 dias</option>
+     <option value="5">> 30 dias</option>
+     </select></td></center>
+
+     <td>
+         <center><select name="input" style="font: normal 14pt arial;  width: 300px; height: 40px;" >
+         <option value="1">-</option>
+         <option value="2">Blackfriday</option>
+         <option value="3">Cyber Monday</option>
+         <option value="4">Dia das Crianças</option>
+         <option value="5">Dia das Mães</option>
+         <option value="6">Dia do Consumidor</option>
+         <option value="7">Dia dos Pais</option>
+         <option value="8">Natal</option>
+         <option value="9">Dia dos Namorados</option>
+         <option value="10">Nenhuma data</option>
+         </select></td></center>
+
+</tr>
+</table>
+<table cellspacing='20'>
+<tr>
+    <th><div id='fundoopcao3'>Cliente mencionou migrar p/ JEC/Procon/ReclameAQUI?</div></th>
+    <th><div id='fundoopcao3'>Qual Motivo do contato</div></th>
+           
+</tr>  
+
+<tr>
+    <th><div id='fundoopcao4'>Sim</div>
+    <input type="checkbox" style="width: 25px; height: 25px;">
+    <div id='fundoopcao4'>Não</div>
+    <input type="checkbox" style="width: 25px; height: 25px;">
+    
+    <td>
+        <center><select id="Motivo" style="font: normal 14pt arial;  width: 400px; height: 40px;" >
+            <option value="1">	 -	</option>
+            <option value="2">	Atendimento	</option>
+            <option value="3">	Cadastro	</option>
+            <option value="4">	Entrega	</option>
+            <option value="5">	Reversa	</option>
+            <option value="6">	Troca/Cancelamento	</option>
+            <option value="7">	Institucional	</option>
+            <option value="8">	Pagamentos	</option>
+            <option value="9">	Montagem	</option>
+            <option value="10">	Nota Fiscal	</option>
+            <option value="11">	Site	</option>
+            <option value="12">	Prevenção a Fraude	</option>
+            <option value="13">	Reembolso/Estorno/Vale	</option>
+            
+        </select></td></center>
+
+
+</tr>
+</table>
+<table cellspacing='20'>  
+    <tr>
+        <th><div id='fundoopcao5'>Qual Problema da ocorrência? </div></th>
+        
+        <tr>
+          <td>
+            <center><select name="linguagens" ; style="font: normal 14pt arial;  width: 1000px; height: 40px;">  
+                <option value="valor1">	-	</option>
+                <optgroup label=" 	O que sobre Atendimento?	">
+                <option value="valor1">	Cliente com Retorno e Sem Solução	</option>
+                <option value="valor2">	Horario de Atendimento	</option>
+                <option value="valor3">	Atendente SAC	</option>
+                <option value="valor4">	Vendedor	</option>
+                <option value="valor5">	Instalador	</option>
+                </optgroup>
+                        
+                        
+                  <optgroup label=" 	O que sobre Cadastro?	">
+                <option value="valor1">	Alterações (nome, tel.; end., email, etc)	</option>
+                <option value="valor2">	Descadastro de e-mail/site	</option>
+                <option value="valor3">	Novo cadastro	</option>
+                <option value="valor4">	Recuperação (senhas, logins, etc)	</option>
+                </optgroup>
+                        
+                        
+                  <optgroup label=" 	O que sobre Entrega?	">
+                <option value="valor1">	Acareação	</option>
+                <option value="valor2">	Alteração do prazo	</option>
+                <option value="valor3">	Atraso na entrega	</option>
+                <option value="valor4">	Avaria na entrega	</option>
+                <option value="valor5">	Protocolo de Entrega	</option>
+                <option value="valor6">	Críticas ao entregador	</option>
+                <option value="valor7">	Dificuldade | Escada / Içamento	</option>
+                <option value="valor8">	Divergência | Peça Faltante	</option>
+                <option value="valor9">	Divergência | Embalagem Violada	</option>
+                <option value="valor10">	Divergência | Erro Separação	</option>
+                <option value="valor11">	Divergência | Pedido Incompleto	</option>
+                <option value="valor12">	Divergência | Pedido Trocado	</option>
+                <option value="valor13">	Entrega dentro do prazo	</option>
+                <option value="valor14">	Extravio na entrega	</option>
+                <option value="valor15">	Informações Adicionais	</option>
+                <option value="valor16">	Insucesso de entrega	</option>
+                <option value="valor17">	Insucesso na entrega agendada	</option>
+                <option value="valor18">	Retido na Fiscalização	</option>
+                <option value="valor19">	Transportadora não Atende a Praça / Área de Risco	</option>
+                <option value="valor20">	Retirar na Loja/Showroom/Fabrica	</option>
+                <option value="valor21">	Problemas com o transportador	</option>
+                <option value="valor22">	Roubo	</option>
+                <option value="valor23">	Embalagem violada/amassada	</option> 
+                </optgroup>
+                
+                        
+                  <optgroup label=" 	O que sobre Reversa?	">
+                <option value="valor1">	Com alteração de prazo	</option>
+                <option value="valor2">	Dentro do Prazo	</option>
+                <option value="valor3">	Em atraso	</option>
+                <option value="valor4">	Insucesso | Cliente ausente	</option>
+                <option value="valor5">	Transportadora recusa coleta	</option>
+                <option value="valor6">	Devolução / Erro no Código de Postagem	</option>
+                <option value="valor7">	Devolução | Atrasada	</option>
+                <option value="valor8">	Devolução | Atraso Código de Postagem	</option>
+                <option value="valor9">	Devolução | Dentro do Prazo	</option>
+                <option value="valor10">	Devolução | Extravio	</option>
+                <option value="valor11">	Cliente recusa coleta	</option>
+                <option value="valor12">	Troca simultânea	</option>
+                <option value="valor13">	Devolução | Roubo	</option>
+                </optgroup>
+                        
+                  <optgroup label=" 	O que sobre Troca/Cancelamento? ">
+                <option value="valor1">	Troca | Arrependimento | Dentro do prazo	</option>
+                <option value="valor2">	Troca | Arrependimento | Fora do prazo	</option>
+                <option value="valor3">	Troca | Avaria	</option>
+                <option value="valor4">	Troca | Defeito | Dentro do prazo	</option>
+                <option value="valor5">	Troca | Defeito | Fora do prazo	</option>
+                <option value="valor6">	Troca | Produto em assistência técnica	</option>
+                <option value="valor7">	Troca | Simultânea	</option>
+                <option value="valor8">	Cancelamento | Arrependimento | Dentro do prazo	</option>
+                <option value="valor9">	Cancelamento | Arrependimento | Fora do prazo	</option>
+                <option value="valor10">	Cancelamento | Avaria	</option>
+                <option value="valor11">	Cancelamento | Defeito | Dentro do prazo	</option>
+                <option value="valor12">	Cancelamento | Defeito | Fora do prazo	</option>
+                <option value="valor13">	Cancelamento | Produto em assistência técnica	</option>
+                </optgroup>
+                        
+                  <optgroup label=" 	O que sobre Institucional?	">
+                <option value="valor1">	Institucional | Doações e Patrocínios	</option>
+                <option value="valor2">	Institucional | Quero endereço/IE/CNPJ	</option>
+                <option value="valor3">	Institucional | Quero ser parceiro da Pormade (Divulgador/Instalador/Franquia/Showroom)	</option>
+                <option value="valor4">	Institucional | Quero trabalhar na Pormade	</option>
+                <option value="valor5">	Institucional | Quero visitar/conhecer a Pormade	</option>
+                <option value="valor6">	Institucional | Reclamação de Parceiros / Fornecedores / Divulgadores	</option>
+                </optgroup>
+                        
+                  <optgroup label=" 	O que sobre Pagamentos?	">
+                <option value="valor1">	Alteração | Opção de pagamento	</option>
+                <option value="valor2">	Dificuldade | Compra c/ cartão de crédito	</option>
+                <option value="valor3">	Dificuldade | Impressão de boleto	</option>
+                <option value="valor4">	Erro | Pagamento não-identificado	</option>
+                <option value="valor5">	Erro | Valor de parcelamento	</option>
+                <option value="valor6">	Erro | Valor do boleto	</option>
+                <option value="valor7">	Erro | Valor do frete	</option>
+                <option value="valor8">	Erro | Valor em fatura do cartão de crédito	</option>
+                <option value="valor9">	Impedimento | Boleto vencido	</option>
+                <option value="valor10">	Pedido Cancelado com Boleto Pago	</option>
+                <option value="valor11">	Pedido Cancelado com Cobrança Fatura	</option>
+                <option value="valor12">	Boleto - Duplicidade de pagamento	</option>
+                </optgroup>	
+                        
+                  <optgroup label=" 	O que sobre Outros?	">
+                <option value="valor1">	Arquiteto	</option>
+                <option value="valor2">	Cliente	</option>
+                <option value="valor3">	Financeiro	</option>
+                <option value="valor4">	Separação De Batente/Avulsos	</option>
+                <option value="valor5">	Embalagem F2	</option>
+                <option value="valor6">	Expedição Loja	</option>
+                <option value="valor7">	Expedição Fabrica 02	</option>
+                <option value="valor8">	Fornecedor	</option>
+                <option value="valor9">	Furação De Batente	</option>
+                <option value="valor10">	Furacao De Porta	</option>
+                <option value="valor11">	Instaladores	</option>
+                <option value="valor12">	Montagem	</option>
+                <option value="valor13">	Separacao De Acessorios	</option>
+                <option value="valor14">	Separacao De Ferragens	</option>
+                <option value="valor15">	Separacao De Porta	</option>
+                <option value="valor16">	Sistema Erp	</option>
+                <option value="valor17">	Transbordo Até Filial/F2	</option>
+                <option value="valor18">	Transportador	</option>
+                <option value="valor19">	Vendas	</option>
+                <option value="valor20">	Recobrimento	</option>
+                <option value="valor21">	Pintura Uv	</option>
+                <option value="valor22">	Vendas Showroom	</option>
+                <option value="valor23">	Usinagem Friso	</option>
+                <option value="valor24">	Pintura Frisos	</option>
+                <option value="valor25">	Montagem Porta Pvc	</option>
+                <option value="valor26">	Estrutural	</option>
+                <option value="valor27">	Usinagem Gmc	</option>
+                <option value="valor28">	Acabamento	</option>
+                </optgroup>
+                </select></center>
+                
+        </tr>
+        </td>
+
+    </tr> 
+    </table>
+
+</body>
+</html>
